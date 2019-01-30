@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'fonts';
+@import 'palette';
+
+@mixin gradient($property) {
+    background-image: -webkit-linear-gradient($property);
+    background-image: -o-linear-gradient($property);
+    background-image: linear-gradient($property);
+}
+
+section.mainIntro {
+    background-color: $mainColor;
+    height: 576.5px;
+}
