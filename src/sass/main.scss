@@ -25,7 +25,7 @@ section.mainIntro {
             font-size: 1.2em;
             text-align: center;
 
-            cursor: pointer;
+            cursor: text;
         }
 
         button {
@@ -48,6 +48,9 @@ section.mainIntro {
     @media(min-width: $lg-width) {
         $widthMargin: 10%;
         text-align: left;
+
+        background-image: url("./../img/side-mirror.jpg");
+        background-size: cover;
 
         h1, h2, h3, h4 {
             margin-left: $widthMargin;
