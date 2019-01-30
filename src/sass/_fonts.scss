@@ -1,10 +1,13 @@
 @import 'breakpoints';
 
 $font-stack: "Akkurat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-primary: #0dc0c9;
 $charcoal: #262729;
+$font-soft: rgb(56, 56, 56);
 
 h1 {
     font-size: 40px;
+    color: $font-soft;
 
     padding-top: 60px;
 
@@ -16,10 +19,12 @@ h1 {
 
 h2 {
     font-size: 25px;
+    color: $font-soft;
 }
 
 h4 {
     font-size: 18px;
+    color: $font-soft;
 
     padding-top: 60px;
 }
