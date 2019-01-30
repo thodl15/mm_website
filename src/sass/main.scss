@@ -10,6 +10,7 @@
 
 section.mainIntro {
     background-color: $mainColor;
+    @include gradient-down(#22c4cf, #9ee7ed);
     height: 576.5px;
     text-align: center;
 
@@ -19,17 +20,27 @@ section.mainIntro {
         input {
             width: 25%;
             margin: 0 auto;
+            border: 1px solid #c1cdce;
             padding: 10px;
             font-size: 1.2em;
             text-align: center;
+
+            cursor: pointer;
         }
 
         button {
             display: block;
             width: 25%;
             margin: 0 auto;
+            border: none;
             padding: 10px;
+            
+            // background-image: linear-gradient(to bottom, #fe885d, #ff5c6f);
+            @include gradient-down(#fe885d, #ff5c6f);
+            color: #fff;
             font-size: 1.2em;
+
+            cursor: pointer;
         }
     }
 }
