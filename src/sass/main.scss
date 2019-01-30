@@ -34,6 +34,8 @@ section.mainIntro {
             margin: 0 auto;
             border: none;
             padding: 10px;
+
+            box-sizing: content-box;
             
             // background-image: linear-gradient(to bottom, #fe885d, #ff5c6f);
             @include gradient-down(#fe885d, #ff5c6f);
@@ -46,9 +48,13 @@ section.mainIntro {
 }
 
 section.mainTest {
+    background-color: $secondaryColor;
+    height: 802px;
+
     .sectionHeader {
         color: $charcoal;
         padding-top: 30px;
+        padding-bottom: 15px;
         padding-left: 30px;
     }
 }

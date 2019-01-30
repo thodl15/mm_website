@@ -1,4 +1,5 @@
 $mainColor: #22c4cf;
+$secondaryColor: #eff3f6;
 
 @mixin gradient-down($colorFrom, $colorTo) {
     background-image: -webkit-gradient(linear, left top, left bottom, from($colorFrom),to($colorTo));
