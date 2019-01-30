@@ -6,7 +6,10 @@
 .pnp.js
 
 # local images
-/dev
+/src/img
+
+# SASS Outputs
+/src/sass/*.css
 
 # testing
 /coverage
