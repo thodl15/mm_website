@@ -11,4 +11,33 @@
 section.mainIntro {
     background-color: $mainColor;
     height: 576.5px;
+    text-align: center;
+
+    .zipInput {
+        padding-top: 30px;
+
+        input {
+            width: 25%;
+            margin: 0 auto;
+            padding: 10px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            width: 25%;
+            margin: 0 auto;
+            padding: 10px;
+            font-size: 1.2em;
+        }
+    }
+}
+
+section.mainTest {
+    .sectionHeader {
+        color: $charcoal;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
 }
