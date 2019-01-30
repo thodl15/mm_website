@@ -11,6 +11,7 @@ import logo from './logo.svg';
 import './sass/base.css';
 
 import WebHeader from './components/core/WebHeader';
+import WebHeaderFixed from './components/core/WebHeaderFixed';
 
 import WebMain from './components/views/WebMain';
 import WebClaims from './components/views/WebClaims';
@@ -38,6 +39,7 @@ class App extends Component {
           </header> */}
 
           <WebHeader />
+          <WebHeaderFixed />
 
           <Route exact path="/" component={WebMain} />
           <Route exact path="/technology" component={WebTech} />
