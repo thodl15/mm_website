@@ -1,1 +1,25 @@
+@import 'breakpoints';
+
 $font-stack: "Akkurat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$charcoal: #262729;
+
+h1 {
+    font-size: 40px;
+
+    padding-top: 60px;
+
+    @media (min-width: $lg-width) {
+        font-size: 52px;
+    }
+
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 18px;
+
+    padding-top: 60px;
+}
