@@ -14,12 +14,26 @@
         float: left;
         height: 32px;
         min-width: 140px;
+
+        padding-left: 10%;
         
         @media (max-width: $md-width) {
             .icon {
                 height: auto;
                 width: 140px;
             }
+        }
+    }
+
+    .nav-menu-options {
+        padding: 5px 0;
+        
+
+        span, a {
+            color: #fff;
+            padding: 5px 20px;
+
+            font-size: 18px;
         }
     }
 

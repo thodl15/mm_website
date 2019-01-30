@@ -8,9 +8,14 @@ const WebHeader = () => {
     return (
         <div className={"nav-root-main"}>
             <div className={"col-sm-3 col-md-2 col-xs-4"}>
-                <img src={mmLogo} className={"icon"} />
+                <a href={"#"} ><img src={mmLogo} className={"icon"} /></a>
             </div>
             <div className={"col-sm-9 col-md-10 col-xs-8"}>
+                <div className={"nav-menu-options"}>
+                    <a href={"#"}>APP</a>
+                    <a href={"#"}>CLAIMS</a>
+                    <a href={"#"}>LOGIN</a>
+                </div>
                 <img src={burger} className={"menu-burger"} />
             </div>
         </div>
