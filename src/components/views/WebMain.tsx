@@ -30,7 +30,7 @@ const WebMain = () => {
                     </button>
                 </form>
 
-                <h4>Call an agent at 1.888.242.5204</h4>
+                <h4 className={"mobileCall"}>Call an agent at 1.888.242.5204</h4>
             </section>
             <section className={"mainTest"}>
                 <h2 className={"sectionHeader"}>
