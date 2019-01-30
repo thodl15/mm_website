@@ -7,7 +7,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './sass/base.css';
+
+import WebHeader from './components/core/WebHeader';
 
 import WebMain from './components/views/WebMain';
 import WebClaims from './components/views/WebClaims';
@@ -19,7 +22,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <header className="App-header">
+          {/* <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
               Edit <code>src/App.tsx</code> and save to reload.
@@ -32,7 +35,9 @@ class App extends Component {
             >
               Learn React
             </a>
-          </header>
+          </header> */}
+
+          <WebHeader />
 
           <Route exact path="/" component={WebMain} />
           <Route exact path="/technology" component={WebTech} />
