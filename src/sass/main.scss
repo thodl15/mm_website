@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'fonts';
 @import 'palette';
+@import 'zipInput';
 
 @mixin gradient($property) {
     background-image: -webkit-linear-gradient($property);
@@ -16,33 +17,6 @@ section.mainIntro {
 
     .zipInput {
         padding-top: 30px;
-
-        input {
-            width: 25%;
-            margin: 0 auto;
-            border: 1px solid #c1cdce;
-            padding: 10px;
-            font-size: 1.2em;
-            text-align: center;
-
-            cursor: text;
-        }
-
-        button {
-            display: block;
-            width: 25%;
-            margin: 0 auto;
-            border: none;
-            padding: 10px;
-
-            box-sizing: content-box;
-            
-            @include gradient-down(#fe885d, #ff5c6f);
-            color: #fff;
-            font-size: 1.2em;
-
-            cursor: pointer;
-        }
     }
 
     @media(min-width: $lg-width) {
@@ -66,10 +40,7 @@ section.mainIntro {
 
         .zipInput {
             width: 65%;
-            margin-left: $widthMargin;
-            button {
-                display: inline-block;
-            }
+            margin-left: 10%;
         }
 
         .mobileCall {

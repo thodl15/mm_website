@@ -16,6 +16,16 @@ const WebHeader = () => {
                     <a href={"#"}>CLAIMS</a>
                     <a href={"#"}>LOGIN</a>
                 </div>
+                <div className={"nav-menu-contentRight"}>
+                    <a href={"#"} className={"nav-menu-phone"}>1.888.242.5204</a>
+                    <form className={"zipInput"}>
+                        <input placeholder={"Enter Zip Code"}>
+                        </input>
+                        <button>
+                            Check Your Rate
+                        </button>
+                    </form>
+                </div>
                 <img src={burger} className={"menu-burger"} />
             </div>
         </div>

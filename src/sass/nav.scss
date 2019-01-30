@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'palette';
 @import 'breakpoints';
+@import 'zipInput';
 
 .nav-root-main {
     color: #747678;
@@ -8,6 +9,7 @@
     display: flex;
 
     padding-top: 20px;
+    padding-bottom: 5px;
     padding-left: 15px;
 
     .icon {
@@ -26,16 +28,42 @@
     }
 
     .nav-menu-options {
+        display: inline-block;
+
         padding: 5px 0;
         
 
-        span, a {
+        a {
             color: #fff;
             padding: 5px 20px;
 
             font-size: 18px;
         }
     }
+
+    .nav-menu-contentRight {
+        float: right;
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        margin-right: 5%;
+
+        .nav-menu-phone {
+            color: #fff;
+            margin-right: 30px;
+        }
+    
+        .zipInput {
+            font-size: 12px;
+
+            input {
+                width: 110px;
+            }
+        }
+    }
+
+    
 
     .menu-burger {
         display: none;
@@ -46,6 +74,12 @@
 
         @media (max-width: $md-width) {
             display: block;
+        }
+    }
+
+    @media (max-width: $md-width) {
+        .nav-menu-options, .zipInput {
+            display: none;
         }
     }
 }
