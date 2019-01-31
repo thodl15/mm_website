@@ -38,3 +38,11 @@
         }
     }
 }
+
+@media (max-width: $sm-width) {
+    .zipInput {
+        input, button {
+            width: 180px;
+        }
+    }
+}
