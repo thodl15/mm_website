@@ -170,5 +170,21 @@ section.mainRate {
         }
     }
 
+    .rateCheckBtn {
+        width: 200px;
+        margin: auto;
+        padding: 25px 0;
 
+        button {
+            width: 100%;
+            margin: auto;
+            padding: 10px 0;
+
+            background-color: $btn-mainColor;
+            color: #fff;
+
+            border: 1px solid transparent;
+            border-radius: 2px;
+        }
+    }
 }

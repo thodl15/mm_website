@@ -71,7 +71,7 @@ const WebMain = () => {
                 <div className={"imageContainer"}>
                     <img className={"rateExampleAdjust"} src={rateExample} />
                 </div>
-                <div>
+                <div className={"rateCheckBtn"}>
                     <button>CHECK YOUR RATE</button>
                 </div>
             </section>
