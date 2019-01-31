@@ -1,0 +1,19 @@
+@import 'palette';
+
+.nav-root-main {
+    background-color: #fff;
+
+    .icon {
+        background-image: url("./../img/logo-metromile-blue.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .menu-burger {
+        background-image: url("./../img/hamburger.svg");
+    }
+
+    a {
+        color: $mainColor;
+    }
+}

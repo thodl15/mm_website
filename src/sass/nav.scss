@@ -4,12 +4,11 @@
 @import 'zipInput';
 
 .nav-root-main {
-    color: #747678;
-    background-color: $mainColor;
     display: flex;
 
-    padding-top: 20px;
-    padding-bottom: 5px;
+
+    padding-top: 15px;
+    padding-bottom: 10px;
     padding-left: 15px;
 
     .icon {
@@ -34,7 +33,6 @@
         
 
         a {
-            color: #fff;
             padding: 5px 20px;
 
             font-size: 18px;
@@ -50,7 +48,6 @@
         margin-right: 5%;
 
         .nav-menu-phone {
-            color: #fff;
             margin-right: 30px;
         }
     
@@ -59,6 +56,12 @@
 
             input {
                 width: 110px;
+            }
+        }
+
+        @media (max-width: $md-width) {
+            .nav-menu-phone {
+                display: none;
             }
         }
     }
@@ -71,6 +74,8 @@
         margin-right: 20px;
         width: 32px;
         height: 32px;
+
+        cursor: pointer;
 
         @media (max-width: $md-width) {
             display: block;
