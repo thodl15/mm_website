@@ -20,6 +20,10 @@ h1 {
 h2 {
     font-size: 25px;
     color: $font-soft;
+
+    @media (min-width: $lg-width) {
+        font-size: 40px;
+    }
 }
 
 h4 {
