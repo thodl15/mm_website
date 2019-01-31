@@ -146,4 +146,29 @@ section.mainRate {
             }
         }
     }
+
+    .imageContainer {
+        width: 100%;
+
+        img {
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        .rateExampleAdjust {
+            padding: 0 100px;
+        }
+
+        @media (min-width: $lg-width) {
+            img {
+                padding: 0 20%;
+            }
+
+            .rateExampleAdjust {
+                padding: 0 30%;
+            }
+        }
+    }
+
+
 }

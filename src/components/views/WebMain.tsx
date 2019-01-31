@@ -12,6 +12,8 @@ import './../../sass/main.css';
 import ReviewCard from '../core/ReviewCard';
 
 import testimonials from './../../other/testimonials';
+import rateCarHalf from './../../img/group-2.png';
+import rateExample from './../../img/savings-calculation.png';
 
 const WebMain = () => {
 
@@ -63,8 +65,11 @@ const WebMain = () => {
                         <p>With pay-per-mile, your bill is based on how far you drive.</p>
                     </div>
                 </div>
-                <div className={""}>
-
+                <div className={"imageContainer"}>
+                    <img src={rateCarHalf} />
+                </div>
+                <div className={"imageContainer"}>
+                    <img className={"rateExampleAdjust"} src={rateExample} />
                 </div>
                 <div>
                     <button>CHECK YOUR RATE</button>
