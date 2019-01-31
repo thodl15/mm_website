@@ -114,3 +114,36 @@ section.mainTest {
         }
     }
 }
+
+section.mainRate {
+    background-color: #fafbfd;
+    .rateText {
+        display: flex;
+        flex-direction: column;
+
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+
+
+        .mmGreenText {
+            color: $font-mmGreen;
+        }
+
+        @media (min-width: $lg-width) {
+            flex-direction: row;
+            align-content: center;
+
+            width: 70%;
+            padding-top: 100px;
+
+            div {
+                width: 50%;
+            }
+
+            div:nth-child(2) {
+                text-align: right;
+            }
+        }
+    }
+}

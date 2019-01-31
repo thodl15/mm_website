@@ -51,6 +51,25 @@ const WebMain = () => {
                     }
                 </div>
             </section>
+            <section className={"mainRate"}>
+                <div className={"rateText"}>
+                    <div>
+                        <h2>Pay a low base rate</h2>
+                        <p>Your car is covered and fully insured even when it's parked.</p>
+                        <p className={"mmGreenText"}>Low rates start at $29.</p>
+                    </div>
+                    <div>
+                        <h2>Then just pennies per mile</h2>
+                        <p>With pay-per-mile, your bill is based on how far you drive.</p>
+                    </div>
+                </div>
+                <div className={""}>
+
+                </div>
+                <div>
+                    <button>CHECK YOUR RATE</button>
+                </div>
+            </section>
         </div>
     )
 }
