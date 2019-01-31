@@ -51,7 +51,7 @@ section.mainIntro {
 
 section.mainTest {
     background-color: $secondaryColor;
-    height: 802px;
+    // height: 802px;
 
     .sectionHeader {
         color: $charcoal;
@@ -60,5 +60,57 @@ section.mainTest {
         padding-top: 30px;
         padding-bottom: 15px;
         padding-left: 30px;
+
+        @media (min-width: $lg-width) {
+            height: 100px;
+            text-align: center;
+        }
+    }
+
+
+    .testDisplay {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        align-items: stretch;
+
+        .testimonial {
+            display: inline-block;
+            border: 1px solid #c1cdce;
+            margin: 15px 0px;
+            padding: 5% 7%;
+            box-sizing: border-box;
+
+            background-color: #fff;
+
+
+            .testReview {
+                color: #747678;
+                line-height: 25px;
+                margin-bottom: 20px;
+            }
+            .testName {
+                color: $mainColor;
+                font-size: 20px;
+            }
+            .ratingStar {
+                display: inline-block;
+                background-image: url("./../img/star.png");
+                height: 15px;
+                width: 15px;
+            }
+
+            
+        }
+        @media (min-width: $lg-width) {
+            width: 85%;
+            padding: 0 5%;
+            flex-direction: row;
+            .testimonial {
+                margin: 15px 10px;
+                padding: 30px 50px;
+            }
+        }
     }
 }

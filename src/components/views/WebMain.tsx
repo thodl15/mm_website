@@ -9,6 +9,9 @@
 import * as React from 'react';
 
 import './../../sass/main.css';
+import ReviewCard from '../core/ReviewCard';
+
+import testimonials from './../../other/testimonials';
 
 const WebMain = () => {
 
@@ -36,6 +39,17 @@ const WebMain = () => {
                 <h2 className={"sectionHeader"}>
                     Real People, Real Savings.
                 </h2>
+                <div className={"testDisplay"}>
+                    {
+                        testimonials.map(x => 
+                            <div className={"col-md-12 col-lg-4 testimonial"}>
+                                <ReviewCard
+                                    {...x}
+                                />
+                            </div>
+                        )
+                    }
+                </div>
             </section>
         </div>
     )
