@@ -343,3 +343,24 @@ section.mainCoverage {
         }
     }
 }
+
+section.mainPulse {
+    background-color: #fafbfd;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    padding: 40px 3%;
+
+
+    @media (min-width: $lg-width) {
+        flex-direction: row;
+
+        padding: 40px 15%;
+
+        img {
+            width: 380px;
+            height: 330px;
+        }
+    }
+}

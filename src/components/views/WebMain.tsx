@@ -16,6 +16,7 @@ import rateCarHalf from './../../img/group-2.png';
 import rateExample from './../../img/savings-calculation.png';
 import savingsWoman from './../../img/woman-driving.png';
 import savingsGraph from './../../img/asset-2.png';
+import pulseImage from './../../img/device.png';
 
 const WebMain = () => {
 
@@ -136,6 +137,22 @@ const WebMain = () => {
                     <div>Medical Payments Coverage</div>
                     <div>Rental Reimbursement</div>
                 </div>
+            </section>
+            <section className={"mainPulse"}>
+                    <div className={"pulseImage"}>
+                        <img src={pulseImage} />
+                    </div>
+                    <div className={"pulseText"}>
+                        <h2>How we measure the miles</h2>
+                        <p>
+                            <b>The Metromile Pulse</b> is a small device that measures the
+                            miles you drive. All you have to do is plug it in under your dashboard
+                            and start driving. The Pulse securely counts your mileage and we use
+                            these miles to calculate your bill. It's how the whoel pay-per-mile thing
+                            works.
+                        </p>
+                        <p>And don't worry, all your data is secured and never sold to anyone. Ever.</p>
+                    </div>
             </section>
         </div>
     )
