@@ -12,6 +12,7 @@ import './sass/base.css';
 
 import WebHeader from './components/core/WebHeader';
 import WebHeaderFixed from './components/core/WebHeaderFixed';
+import WebFooter from './components/core/WebFooter';
 
 import WebMain from './components/views/WebMain';
 import WebClaims from './components/views/WebClaims';
@@ -45,6 +46,8 @@ class App extends Component {
           <Route exact path="/technology" component={WebTech} />
           <Route exact path="/claims" component={WebClaims} />
           <Route exact path="/dashboard" component={WebLogin} />
+        
+          <WebFooter />
         </div>
       </Router>
     );

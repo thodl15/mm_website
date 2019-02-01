@@ -1,0 +1,62 @@
+@import "breakpoints";
+
+.webFooter {
+    background-color: #262729;
+    color: #fff;
+
+    display: flex;
+    text-align: center;
+    line-height: 1.5em;
+
+    padding: 40px 3%;
+
+    img {
+        height: 36px;
+        width: 40px;
+        margin: 10px 4%;
+    }
+
+    span img {
+        height: 25px;
+        width: 25px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    .footerLegal {
+        width: 50%;
+    }
+
+    .footerLinks {
+        display: none;
+    }
+
+    @media(min-width: $lg-width) {
+        padding: 60px 10%;
+
+        .footerLegal {
+            width: 30%;
+            text-align: left;
+            img {
+                margin-left: 0;
+            }
+        }
+
+        .footerLinks {
+            display: inline-block;
+            width: 60%;
+
+            text-align: left;
+            margin-left: 100px;
+            padding: 80px 0;
+
+            div {
+                display: inline-block;
+                width: 33.3%;
+                padding: 10px;
+            }
+        }
+    }
+}
