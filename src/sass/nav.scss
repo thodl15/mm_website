@@ -59,7 +59,7 @@
             }
         }
 
-        @media (max-width: $md-width) {
+        @media (max-width: $lg-width) {
             .nav-menu-phone {
                 display: none;
             }
@@ -77,12 +77,12 @@
 
         cursor: pointer;
 
-        @media (max-width: $md-width) {
+        @media (max-width: $lg-width) {
             display: block;
         }
     }
 
-    @media (max-width: $md-width) {
+    @media (max-width: $lg-width) {
         .nav-menu-options, .zipInput {
             display: none;
         }
