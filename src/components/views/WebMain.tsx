@@ -15,6 +15,7 @@ import testimonials from './../../other/testimonials';
 import rateCarHalf from './../../img/group-2.png';
 import rateExample from './../../img/savings-calculation.png';
 import savingsWoman from './../../img/woman-driving.png';
+import savingsGraph from './../../img/asset-2.png';
 
 const WebMain = () => {
 
@@ -96,6 +97,9 @@ const WebMain = () => {
                             <h2>$611/year</h2>
                         </div>
                     </div>
+                </div>
+                <div className={"savingsGraph d-sm-none d-md-block"}>
+                    <img src={savingsGraph} />
                 </div>
                 <div className={"checkBtn"}>
                     <button>CHECK YOUR SAVINGS</button>
