@@ -364,3 +364,39 @@ section.mainPulse {
         }
     }
 }
+
+section.mainQuote {
+    background-color: $btn-mainColor;
+    color: #fff;
+
+    margin: auto;
+    padding: 40px 3%;
+
+    text-align: center;
+
+    h2 {
+        color: #fff;
+    }
+
+    div {
+        padding: 15px 0;
+    }
+
+    button {
+        background-color: #ff7550;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        color: #fff;
+    }
+
+    @media (min-width: $lg-width) {
+        padding: 60px 3%;
+
+        button {
+            width: 350px;
+        }
+    }
+}
