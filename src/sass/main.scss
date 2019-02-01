@@ -25,7 +25,6 @@ section {
     }
 
     .checkBtn {
-        // width: 225px;
         margin: auto;
         padding: 75px 0;
 
@@ -40,6 +39,8 @@ section {
 
             border: 1px solid transparent;
             border-radius: 2px;
+
+            cursor: pointer;
         }
     }
 }
@@ -260,6 +261,31 @@ section.mainSavings {
             .savingsText {
                 padding-left: 150px;
             }
+        }
+    }
+}
+
+section.mainRoadtrip {
+    
+    background-image: url('./../img/roadtrip.jpg');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 560px;
+
+    padding: 40px 0;
+
+    div {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    @media (min-width: $lg-width) {
+        div {
+            width: 45%;
         }
     }
 }

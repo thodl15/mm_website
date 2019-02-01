@@ -105,6 +105,15 @@ const WebMain = () => {
                     <button>CHECK YOUR SAVINGS</button>
                 </div>
             </section>
+            <section className={"mainRoadtrip"}>
+                <div>
+                    <h2>All miles over 250/day are free</h2>
+                    <p>With pay-per-mile insurance, you aren't charged for the miles
+                        you drive above 250/day (150/day in New Jersey). So if you go
+                        on a long trip, you'll save big.
+                    </p>
+                </div>
+            </section>
         </div>
     )
 }
