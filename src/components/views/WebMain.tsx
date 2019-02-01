@@ -14,6 +14,7 @@ import ReviewCard from '../core/ReviewCard';
 import testimonials from './../../other/testimonials';
 import rateCarHalf from './../../img/group-2.png';
 import rateExample from './../../img/savings-calculation.png';
+import savingsWoman from './../../img/woman-driving.png';
 
 const WebMain = () => {
 
@@ -71,8 +72,33 @@ const WebMain = () => {
                 <div className={"imageContainer"}>
                     <img className={"rateExampleAdjust"} src={rateExample} />
                 </div>
-                <div className={"rateCheckBtn"}>
+                <div className={"checkBtn"}>
                     <button>CHECK YOUR RATE</button>
+                </div>
+            </section>
+            <section className={"mainSavings"}>
+                <h2 className={"d-sm-block d-md-none sectionHeader"}>
+                    Designed for low-mileage drivers
+                </h2>
+                <div className={"savingsUpperContent"}>
+                    <div>
+                        <img src={savingsWoman}/>
+                    </div>
+                    <div className={"savingsText"}>
+                        <h2 className={"d-sm-none d-md-block"}>Designed for low-mileage drivers</h2>
+                        <p>
+                            Whether you barely drive, commute around town,
+                            or use the car to get away on the weekends,
+                            per-mile car insurance could cut your bill in half.
+                        </p>
+                        <div>
+                            <p>Average Savings:</p>
+                            <h2>$611/year</h2>
+                        </div>
+                    </div>
+                </div>
+                <div className={"checkBtn"}>
+                    <button>CHECK YOUR SAVINGS</button>
                 </div>
             </section>
         </div>
