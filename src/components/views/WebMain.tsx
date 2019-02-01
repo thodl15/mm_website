@@ -10,8 +10,11 @@ import * as React from 'react';
 
 import './../../sass/main.css';
 import ReviewCard from '../core/ReviewCard';
+import InfoCard from '../core/InfoCard';
 
 import testimonials from './../../other/testimonials';
+import faq from './../../other/faq';
+
 import rateCarHalf from './../../img/group-2.png';
 import rateExample from './../../img/savings-calculation.png';
 import savingsWoman from './../../img/woman-driving.png';
@@ -164,6 +167,23 @@ const WebMain = () => {
                 </div>
                 <div>
                     <p>Personalized quote in just 2 minutes.</p>
+                </div>
+            </section>
+            <section className={"mainFaq"}>
+                <div className="faqContent">
+                    <h2>Answers to all your insurance related questions</h2>
+                    <p>For more information, please visit the <a href={"#"}>Help Center</a></p>
+                    <a href={"#"}>See all of our FAQs ></a>
+                </div>
+                <div className={"faqInfo"}>
+                    {
+                        faq.map(x => 
+                            <InfoCard
+                                question={x.question}
+                                answer={x.answer}
+                            />
+                        )
+                    }
                 </div>
             </section>
         </div>

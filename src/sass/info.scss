@@ -1,0 +1,39 @@
+.infoCard {
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 5px 0;
+    max-width: 750px;
+    .qCard {
+        background-color: #fff;
+        padding: 15px 30px;
+        border: 1px solid #586731;
+
+        cursor: pointer;
+
+        div {
+            display: inline-block;
+        }
+
+        .infoText {
+            width: 95%;
+        }
+
+        .btnInfo {
+            float: right;
+            padding-right: 10px;
+            background-image: url('./../img/icon-plus.svg');
+            background-position: 50%;
+            height: 16px;
+            width: 16px;
+        }
+    }
+    .aCard {
+        padding: 15px 30px;
+        border: 1px solid #586731;
+        border-top: none;
+
+        div {
+            display: inline-block;
+        }
+    }
+}

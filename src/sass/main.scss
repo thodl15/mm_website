@@ -400,3 +400,36 @@ section.mainQuote {
         }
     }
 }
+
+section.mainFaq {
+    background-color: #eff3f6;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px 3%;
+
+    a {
+        color: $charcoal;
+    }
+
+    p a {
+        color: $btn-mainColor;
+    }
+
+    
+
+    @media (min-width: $lg-width) {
+        flex-direction: row;
+
+        padding: 60px 15%;
+
+        .faqContent {
+            width: 60%;
+        }
+    
+        .faqInfo {
+            margin-left: 50px;
+        }
+    }
+}
