@@ -114,6 +114,29 @@ const WebMain = () => {
                     </p>
                 </div>
             </section>
+            <section className={"mainCoverage"}>
+                <div className={"coverageText"}>
+                    <h2>Complete coverage options for less</h2>
+                    <p>Just because we cost less, doesn't mean we compromise when it comes to
+                        coverage. No matter what happens, we've got your back. With our complete
+                        list of options, a U.S.-based claims team, and industry leading customer
+                        service, it's all the coverage you need for a fraction of the cost.
+                    </p>
+                    <div className={"checkBtn"}>
+                        <button>GET A FREE QUOTE</button>
+                    </div>
+                </div>
+                <div className={"coverageChecklist"}>
+                    <div>24/7 Roadside Assistance</div>
+                    <div>Collision</div>
+                    <div>Comprehensive</div>
+                    <div>Bodily Injury</div>
+                    <div>Property Damage</div>
+                    <div>Under/Uninsured Motorist</div>
+                    <div>Medical Payments Coverage</div>
+                    <div>Rental Reimbursement</div>
+                </div>
+            </section>
         </div>
     )
 }
